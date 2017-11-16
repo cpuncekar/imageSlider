@@ -1,0 +1,46 @@
+/*body, #slider, .wrap, .slide-content {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}*/
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #313131;
+}
+
+.slider {
+	width: 800px;
+	height: 400px;
+	background: url(https://cdn.makeawebsitehub.com/wp-content/uploads/2016/02/learn-code-e1455713167295.jpg);
+	margin: 100px auto;
+	animation: slide 15s infinite;
+}
+
+footer {
+	text-align: center;
+	color: white;
+}
+
+@keyframes slide{
+	25% {
+		background: url(https://cdn.makeawebsitehub.com/wp-content/uploads/2016/02/learn-code-e1455713167295.jpg);
+	
+	}
+	
+	50% {
+		background: url(http://www.ifreewallpaper.com/wallpapers_download/mobile/1200_800_wallpapers/20110404/B/B_musicmoder_5n4vy4r4.jpg);
+	
+	}
+
+	75% {
+		background: url(https://wallpaperstock.net/smudge-hdr-wallpapers_8544_1200x800.jpg);
+	}
+
+	100% {
+		background: url(http://www.ifreewallpaper.com/wallpapers_download/mobile/1200_800_wallpapers/20110205/B/B_landscape1_1vxud922.jpg);
+	
+	}
+}
